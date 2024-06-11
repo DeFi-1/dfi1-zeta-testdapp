@@ -374,7 +374,7 @@ export default function Index({ children }: RootLayoutProps) {
   useEffect(() => {
     if (!Cookies.get("firstTimeVisit")) {
       toast({
-        title: "Welcome to ZetaChain Example App",
+        title: "Welcome to DeFi ONE Test App",
         description: "This is a testnet. Please do not use real funds.",
         duration: 60000,
       })
